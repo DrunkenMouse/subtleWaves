@@ -15,6 +15,7 @@
 		16EDEF5A1DF5280E001CA78F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16EDEF581DF5280E001CA78F /* LaunchScreen.storyboard */; };
 		16EDEF651DF5280F001CA78F /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDEF641DF5280F001CA78F /* _______Tests.m */; };
 		16EDEF701DF5280F001CA78F /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDEF6F1DF5280F001CA78F /* _______UITests.m */; };
+		16EDEF821DF53F6F001CA78F /* ViewLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDEF811DF53F6F001CA78F /* ViewLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		16EDEF6B1DF5280F001CA78F /* 若隐若现的电波UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "若隐若现的电波UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16EDEF6F1DF5280F001CA78F /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		16EDEF711DF5280F001CA78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16EDEF801DF53F6F001CA78F /* ViewLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewLayer.h; sourceTree = "<group>"; };
+		16EDEF811DF53F6F001CA78F /* ViewLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		16EDEF491DF5280E001CA78F /* 若隐若现的电波 */ = {
 			isa = PBXGroup;
 			children = (
+				16EDEF801DF53F6F001CA78F /* ViewLayer.h */,
+				16EDEF811DF53F6F001CA78F /* ViewLayer.m */,
 				16EDEF4D1DF5280E001CA78F /* AppDelegate.h */,
 				16EDEF4E1DF5280E001CA78F /* AppDelegate.m */,
 				16EDEF501DF5280E001CA78F /* ViewController.h */,
@@ -276,6 +281,7 @@
 				16EDEF521DF5280E001CA78F /* ViewController.m in Sources */,
 				16EDEF4F1DF5280E001CA78F /* AppDelegate.m in Sources */,
 				16EDEF4C1DF5280E001CA78F /* main.m in Sources */,
+				16EDEF821DF53F6F001CA78F /* ViewLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +513,7 @@
 				16EDEF761DF5280F001CA78F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16EDEF771DF5280F001CA78F /* Build configuration list for PBXNativeTarget "若隐若现的电波Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				16EDEF791DF5280F001CA78F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16EDEF7A1DF5280F001CA78F /* Build configuration list for PBXNativeTarget "若隐若现的电波UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				16EDEF7C1DF5280F001CA78F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
