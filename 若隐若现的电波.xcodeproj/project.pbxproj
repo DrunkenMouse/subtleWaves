@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16EDEF4C1DF5280E001CA78F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDEF4B1DF5280E001CA78F /* main.m */; };
+		16EDEF4F1DF5280E001CA78F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDEF4E1DF5280E001CA78F /* AppDelegate.m */; };
+		16EDEF521DF5280E001CA78F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDEF511DF5280E001CA78F /* ViewController.m */; };
+		16EDEF551DF5280E001CA78F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16EDEF531DF5280E001CA78F /* Main.storyboard */; };
+		16EDEF571DF5280E001CA78F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16EDEF561DF5280E001CA78F /* Assets.xcassets */; };
+		16EDEF5A1DF5280E001CA78F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16EDEF581DF5280E001CA78F /* LaunchScreen.storyboard */; };
+		16EDEF651DF5280F001CA78F /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDEF641DF5280F001CA78F /* _______Tests.m */; };
+		16EDEF701DF5280F001CA78F /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDEF6F1DF5280F001CA78F /* _______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16EDEF611DF5280F001CA78F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16EDEF3F1DF5280E001CA78F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16EDEF461DF5280E001CA78F;
+			remoteInfo = "若隐若现的电波";
+		};
+		16EDEF6C1DF5280F001CA78F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16EDEF3F1DF5280E001CA78F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16EDEF461DF5280E001CA78F;
+			remoteInfo = "若隐若现的电波";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16EDEF471DF5280E001CA78F /* 若隐若现的电波.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "若隐若现的电波.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16EDEF4B1DF5280E001CA78F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16EDEF4D1DF5280E001CA78F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16EDEF4E1DF5280E001CA78F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16EDEF501DF5280E001CA78F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16EDEF511DF5280E001CA78F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16EDEF541DF5280E001CA78F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16EDEF561DF5280E001CA78F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16EDEF591DF5280E001CA78F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16EDEF5B1DF5280E001CA78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16EDEF601DF5280F001CA78F /* 若隐若现的电波Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "若隐若现的电波Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16EDEF641DF5280F001CA78F /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		16EDEF661DF5280F001CA78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16EDEF6B1DF5280F001CA78F /* 若隐若现的电波UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "若隐若现的电波UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16EDEF6F1DF5280F001CA78F /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		16EDEF711DF5280F001CA78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16EDEF441DF5280E001CA78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16EDEF5D1DF5280F001CA78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16EDEF681DF5280F001CA78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16EDEF3E1DF5280E001CA78F = {
+			isa = PBXGroup;
+			children = (
+				16EDEF491DF5280E001CA78F /* 若隐若现的电波 */,
+				16EDEF631DF5280F001CA78F /* 若隐若现的电波Tests */,
+				16EDEF6E1DF5280F001CA78F /* 若隐若现的电波UITests */,
+				16EDEF481DF5280E001CA78F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16EDEF481DF5280E001CA78F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16EDEF471DF5280E001CA78F /* 若隐若现的电波.app */,
+				16EDEF601DF5280F001CA78F /* 若隐若现的电波Tests.xctest */,
+				16EDEF6B1DF5280F001CA78F /* 若隐若现的电波UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16EDEF491DF5280E001CA78F /* 若隐若现的电波 */ = {
+			isa = PBXGroup;
+			children = (
+				16EDEF4D1DF5280E001CA78F /* AppDelegate.h */,
+				16EDEF4E1DF5280E001CA78F /* AppDelegate.m */,
+				16EDEF501DF5280E001CA78F /* ViewController.h */,
+				16EDEF511DF5280E001CA78F /* ViewController.m */,
+				16EDEF531DF5280E001CA78F /* Main.storyboard */,
+				16EDEF561DF5280E001CA78F /* Assets.xcassets */,
+				16EDEF581DF5280E001CA78F /* LaunchScreen.storyboard */,
+				16EDEF5B1DF5280E001CA78F /* Info.plist */,
+				16EDEF4A1DF5280E001CA78F /* Supporting Files */,
+			);
+			path = "若隐若现的电波";
+			sourceTree = "<group>";
+		};
+		16EDEF4A1DF5280E001CA78F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16EDEF4B1DF5280E001CA78F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16EDEF631DF5280F001CA78F /* 若隐若现的电波Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16EDEF641DF5280F001CA78F /* _______Tests.m */,
+				16EDEF661DF5280F001CA78F /* Info.plist */,
+			);
+			path = "若隐若现的电波Tests";
+			sourceTree = "<group>";
+		};
+		16EDEF6E1DF5280F001CA78F /* 若隐若现的电波UITests */ = {
+			isa = PBXGroup;
+			children = (
+				16EDEF6F1DF5280F001CA78F /* _______UITests.m */,
+				16EDEF711DF5280F001CA78F /* Info.plist */,
+			);
+			path = "若隐若现的电波UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16EDEF461DF5280E001CA78F /* 若隐若现的电波 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16EDEF741DF5280F001CA78F /* Build configuration list for PBXNativeTarget "若隐若现的电波" */;
+			buildPhases = (
+				16EDEF431DF5280E001CA78F /* Sources */,
+				16EDEF441DF5280E001CA78F /* Frameworks */,
+				16EDEF451DF5280E001CA78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "若隐若现的电波";
+			productName = "若隐若现的电波";
+			productReference = 16EDEF471DF5280E001CA78F /* 若隐若现的电波.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16EDEF5F1DF5280F001CA78F /* 若隐若现的电波Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16EDEF771DF5280F001CA78F /* Build configuration list for PBXNativeTarget "若隐若现的电波Tests" */;
+			buildPhases = (
+				16EDEF5C1DF5280F001CA78F /* Sources */,
+				16EDEF5D1DF5280F001CA78F /* Frameworks */,
+				16EDEF5E1DF5280F001CA78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16EDEF621DF5280F001CA78F /* PBXTargetDependency */,
+			);
+			name = "若隐若现的电波Tests";
+			productName = "若隐若现的电波Tests";
+			productReference = 16EDEF601DF5280F001CA78F /* 若隐若现的电波Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16EDEF6A1DF5280F001CA78F /* 若隐若现的电波UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16EDEF7A1DF5280F001CA78F /* Build configuration list for PBXNativeTarget "若隐若现的电波UITests" */;
+			buildPhases = (
+				16EDEF671DF5280F001CA78F /* Sources */,
+				16EDEF681DF5280F001CA78F /* Frameworks */,
+				16EDEF691DF5280F001CA78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16EDEF6D1DF5280F001CA78F /* PBXTargetDependency */,
+			);
+			name = "若隐若现的电波UITests";
+			productName = "若隐若现的电波UITests";
+			productReference = 16EDEF6B1DF5280F001CA78F /* 若隐若现的电波UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16EDEF3F1DF5280E001CA78F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "王奥东";
+				TargetAttributes = {
+					16EDEF461DF5280E001CA78F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					16EDEF5F1DF5280F001CA78F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16EDEF461DF5280E001CA78F;
+					};
+					16EDEF6A1DF5280F001CA78F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16EDEF461DF5280E001CA78F;
+					};
+				};
+			};
+			buildConfigurationList = 16EDEF421DF5280E001CA78F /* Build configuration list for PBXProject "若隐若现的电波" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16EDEF3E1DF5280E001CA78F;
+			productRefGroup = 16EDEF481DF5280E001CA78F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16EDEF461DF5280E001CA78F /* 若隐若现的电波 */,
+				16EDEF5F1DF5280F001CA78F /* 若隐若现的电波Tests */,
+				16EDEF6A1DF5280F001CA78F /* 若隐若现的电波UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16EDEF451DF5280E001CA78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EDEF5A1DF5280E001CA78F /* LaunchScreen.storyboard in Resources */,
+				16EDEF571DF5280E001CA78F /* Assets.xcassets in Resources */,
+				16EDEF551DF5280E001CA78F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16EDEF5E1DF5280F001CA78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16EDEF691DF5280F001CA78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16EDEF431DF5280E001CA78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EDEF521DF5280E001CA78F /* ViewController.m in Sources */,
+				16EDEF4F1DF5280E001CA78F /* AppDelegate.m in Sources */,
+				16EDEF4C1DF5280E001CA78F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16EDEF5C1DF5280F001CA78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EDEF651DF5280F001CA78F /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16EDEF671DF5280F001CA78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EDEF701DF5280F001CA78F /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16EDEF621DF5280F001CA78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16EDEF461DF5280E001CA78F /* 若隐若现的电波 */;
+			targetProxy = 16EDEF611DF5280F001CA78F /* PBXContainerItemProxy */;
+		};
+		16EDEF6D1DF5280F001CA78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16EDEF461DF5280E001CA78F /* 若隐若现的电波 */;
+			targetProxy = 16EDEF6C1DF5280F001CA78F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16EDEF531DF5280E001CA78F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16EDEF541DF5280E001CA78F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16EDEF581DF5280E001CA78F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16EDEF591DF5280E001CA78F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16EDEF721DF5280F001CA78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16EDEF731DF5280F001CA78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16EDEF751DF5280F001CA78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "若隐若现的电波/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16EDEF761DF5280F001CA78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "若隐若现的电波/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16EDEF781DF5280F001CA78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "若隐若现的电波Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/若隐若现的电波.app/若隐若现的电波";
+			};
+			name = Debug;
+		};
+		16EDEF791DF5280F001CA78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "若隐若现的电波Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/若隐若现的电波.app/若隐若现的电波";
+			};
+			name = Release;
+		};
+		16EDEF7B1DF5280F001CA78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "若隐若现的电波UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "若隐若现的电波";
+			};
+			name = Debug;
+		};
+		16EDEF7C1DF5280F001CA78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "若隐若现的电波UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "若隐若现的电波";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16EDEF421DF5280E001CA78F /* Build configuration list for PBXProject "若隐若现的电波" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EDEF721DF5280F001CA78F /* Debug */,
+				16EDEF731DF5280F001CA78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16EDEF741DF5280F001CA78F /* Build configuration list for PBXNativeTarget "若隐若现的电波" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EDEF751DF5280F001CA78F /* Debug */,
+				16EDEF761DF5280F001CA78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16EDEF771DF5280F001CA78F /* Build configuration list for PBXNativeTarget "若隐若现的电波Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EDEF781DF5280F001CA78F /* Debug */,
+				16EDEF791DF5280F001CA78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16EDEF7A1DF5280F001CA78F /* Build configuration list for PBXNativeTarget "若隐若现的电波UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EDEF7B1DF5280F001CA78F /* Debug */,
+				16EDEF7C1DF5280F001CA78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16EDEF3F1DF5280E001CA78F /* Project object */;
+}
